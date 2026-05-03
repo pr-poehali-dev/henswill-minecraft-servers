@@ -414,7 +414,31 @@
   font-size: 0.95rem;
   font-weight: 600;
   letter-spacing: 0.02em;
-  margin: 0;
+  margin: 0 0 1.5rem;
+}
+
+.about-discord-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: linear-gradient(135deg, #5865f2, #7c3aed);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0.8rem 2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 4px 24px rgba(88, 101, 242, 0.4);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s,
+    filter 0.2s;
+}
+.about-discord-btn:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(88, 101, 242, 0.6);
+  filter: brightness(1.1);
 }
 
 /* Footer */

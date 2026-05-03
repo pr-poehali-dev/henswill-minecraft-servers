@@ -127,6 +127,15 @@ const Index = () => {
           </div>
         </div>
         <p className="about-cta">Жду тебя на нашем сервере, и не забудь прочитать правила! Удачи! 🍀</p>
+        <a
+          href="https://discord.gg/C88wbnmtq"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="about-discord-btn"
+        >
+          <span>💬</span>
+          <span>Вступить в Discord</span>
+        </a>
       </div>
 
       {/* Footer */}
