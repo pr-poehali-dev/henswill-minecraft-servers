@@ -103,7 +103,17 @@ const Index = () => {
       </div>
 
       {/* Footer */}
-      <footer className="hw-footer">© 2025 Henswill · Minecraft Network</footer>
+      <footer className="hw-footer">
+        © 2026 Henswill · Minecraft Network
+        <a
+          href="https://discord.gg/C88wbnmtq"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="discord-link"
+        >
+          <span>Discord</span>
+        </a>
+      </footer>
     </div>
   );
 };
