@@ -6,7 +6,7 @@ const packages = [
     title: "Vanilla",
     price: "50 ₽",
     description: "Классический режим",
-    icon: "🌿",
+    icon: "❤️",
     color: "#3b82f6",
   },
   {
