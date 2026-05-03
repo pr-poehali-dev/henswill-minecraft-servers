@@ -170,6 +170,14 @@
   text-transform: uppercase;
 }
 
+.hero-cta {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  color: #a78bfa;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-top: 0.6rem;
+}
+
 .hero-line {
   width: 60px;
   height: 2px;

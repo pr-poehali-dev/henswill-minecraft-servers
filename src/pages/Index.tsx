@@ -75,6 +75,7 @@ const Index = () => {
         </h1>
 
         <p className="hero-sub">Сеть серверов — Henswill</p>
+        <p className="hero-cta">Оплати проходку и залетай на сервер!</p>
         <div className="hero-line" />
       </div>
 
