@@ -102,6 +102,32 @@ const Index = () => {
         ))}
       </div>
 
+      {/* About section */}
+      <div className="about-section">
+        <div className="about-badge">📖 О НАС</div>
+        <h2 className="about-title">Henswill</h2>
+        <p className="about-lead">Приватный, ванильный сервер Майнкрафт</p>
+        <div className="about-grid">
+          <div className="about-item">
+            <span className="about-item-icon">👥</span>
+            <p>Тут собраны самые хорошие и добрые игроки, а также администрация</p>
+          </div>
+          <div className="about-item">
+            <span className="about-item-icon">📜</span>
+            <p>Есть свой сюжет (ЛОР) — уникальная история мира Henswill</p>
+          </div>
+          <div className="about-item">
+            <span className="about-item-icon">⚖️</span>
+            <p>Никаких преимуществ у игроков — честная игра для всех</p>
+          </div>
+          <div className="about-item">
+            <span className="about-item-icon">🖥️</span>
+            <p>Свой мощный хостинг — стабильная работа 24/7</p>
+          </div>
+        </div>
+        <p className="about-cta">Жду тебя на нашем сервере, и не забудь прочитать правила! Удачи! 🍀</p>
+      </div>
+
       {/* Footer */}
       <footer className="hw-footer">
         © 2026 Henswill · Minecraft Network
