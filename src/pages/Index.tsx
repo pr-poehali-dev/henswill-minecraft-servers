@@ -1,4 +1,4 @@
-const DONATION_URL = "https://www.donationalerts.com/r/henswill";
+const DONATION_URL = "https://boosty.to/henswill/donate";
 
 const packages = [
   {
