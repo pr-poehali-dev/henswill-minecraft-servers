@@ -25,6 +25,14 @@ const packages = [
     icon: "🔓",
     color: "#6366f1",
   },
+  {
+    id: "prefix",
+    title: "Префикс",
+    price: "50 ₽",
+    description: "Уникальный префикс к нику",
+    icon: "✨",
+    color: "#f59e0b",
+  },
 ];
 
 const particles = Array.from({ length: 28 }, (_, i) => ({
