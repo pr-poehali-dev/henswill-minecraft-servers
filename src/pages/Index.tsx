@@ -12,10 +12,11 @@ const packages = [
   {
     id: "hardcore",
     title: "Hardcore",
-    price: "50 ₽",
+    price: "Бесплатно",
     description: "Для настоящих выживших",
     icon: "💀",
     color: "#8b5cf6",
+    url: "https://discord.gg/ZZwZBZ5Xg5",
   },
   {
     id: "unban",
@@ -92,7 +93,7 @@ const Index = () => {
         {packages.map((pkg, i) => (
           <a
             key={pkg.id}
-            href={DONATION_URL}
+            href={pkg.url || DONATION_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="pkg-card"
