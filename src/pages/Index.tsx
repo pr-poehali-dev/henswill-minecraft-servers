@@ -4,10 +4,11 @@ const packages = [
   {
     id: "vanilla",
     title: "Vanilla",
-    price: "50 ₽",
+    price: "Бесплатно",
     description: "Классический режим",
     icon: "❤️",
     color: "#3b82f6",
+    url: "https://discord.gg/ZZwZBZ5Xg5",
   },
   {
     id: "hardcore",
